@@ -5,6 +5,7 @@ before_script:
   - composer install
 script: phpunit tests
 deploy:
+-
     provider: heroku
     app: project1-travis
     on: master
